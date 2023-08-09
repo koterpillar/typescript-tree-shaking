@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = {
+  mode: 'production',
   target: 'node18',
   entry: {
     index: './src/index.ts'
@@ -15,6 +16,9 @@ module.exports = {
       require('path').resolve(__dirname, 'src')
     ],
     extensions: ['.ts']
+  },
+  optimization: {
+    usedExports: true
   }
 };
 
