@@ -1,0 +1,9 @@
+{
+  "name": "typescript-tree-shaking",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "ts-loader": "^9.4.4",
+    "webpack": "^5.88.2"
+  }
+}
