@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "rootDir": "src",
-    "baseUrl": "."
+    "baseUrl": ".",
+    "module": "NodeNext"
   }
 }

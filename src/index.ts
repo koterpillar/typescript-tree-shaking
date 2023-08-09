@@ -1,2 +1,2 @@
-import { foo } from "./melon";
+import { foo } from "./melon.js";
 foo();

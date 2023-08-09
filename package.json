@@ -2,6 +2,7 @@
   "name": "typescript-tree-shaking",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "ts-loader": "^9.4.4",
     "typescript": "^5.1.6",

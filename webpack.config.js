@@ -1,6 +1,6 @@
 "use strict";
 
-module.exports = {
+export default {
   mode: "production",
   target: "node18",
   entry: {
@@ -12,6 +12,9 @@ module.exports = {
   resolve: {
     modules: ["src"],
     extensions: [".ts"],
+    extensionAlias: {
+      ".js": [".ts"],
+    },
   },
   optimization: {
     usedExports: true,
